@@ -10,7 +10,7 @@ class MyClass{
     String text;
 }
 
-public class ChapterSix {
+public class CreateChapterSix {
 
     public static void main(String[] args) {
 
