@@ -28,6 +28,17 @@ public class AssignmentOfObjects {
 
     public static void main(String[] args) {
 
-       
+        AssignObj objA = new AssignObj();
+        AssignObj objB = new AssignObj("Second object!");
+
+        objA.show();
+        objB.show();
+
+        objA = objB;
+        objA.show();
+
+        objB.text = "Second object was changed!";
+
+        objA.show();
     }
 }
