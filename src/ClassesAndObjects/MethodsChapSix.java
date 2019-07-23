@@ -31,6 +31,6 @@ public class MethodsChapSix {
         obj.text = "Text field";
 
         JOptionPane.showMessageDialog(null, obj.showText());
-        
+
     }
 }
