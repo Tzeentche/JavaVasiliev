@@ -17,7 +17,7 @@ class FifthClass {
 
     FifthClass(int n) {
 
-        srt(n);
+        set(n);
 
         showText();
     }
@@ -47,8 +47,41 @@ class FifthClass {
         JOptionPane.showMessageDialog(null, str);
     }
 
-    void set
+    void set(){
+
+        num = 0;
+        symb = 'A';
+        text = "There are no arguments.";
+    }
+
+    void set(int n){
+
+        num = n;
+        symb = 'B';
+        text = "There is INTEGER argument.";
+    }
+
+    void set(char s){
+
+        num = 1;
+        symb = s;
+        text = "There are CHAR argument.";
+    }
+
+    void set(int n, char s, String str){
+
+        num = n;
+        symb = s;
+        text = str;
+    }
 }
 public class Overloading {
 
+    public static void main(String[] args) {
+
+        FifthClass obj1 = new FifthClass();
+        FifthClass obj2 = new FifthClass(2);
+        FifthClass obj3 = new FifthClass('Z');
+        FifthClass obj4 = new FifthClass(3, 'D', "There are three arguments. ");
+    }
 }
