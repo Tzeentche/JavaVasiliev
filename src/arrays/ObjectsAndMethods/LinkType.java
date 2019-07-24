@@ -20,6 +20,17 @@ public class LinkType {
 
     static void ChangeRef(SeventhClass obj){
 
-       
+        SeventhClass tmp = new SeventhClass("Local object");
+        obj = tmp;
+        obj.show();
+    }
+
+    public static void main(String[] args) {
+
+        SeventhClass obj = new SeventhClass("Main object");
+        obj.show();
+        ChangeRef(obj);
+
+        obj.show();
     }
 }
