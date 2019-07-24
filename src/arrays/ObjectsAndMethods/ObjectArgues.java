@@ -46,11 +46,11 @@ public class ObjectArgues {
 
     public static void main(String[] args) {
 
-        SixthClass obj = new SixthClass(1, 'a');
-        obj.show();
-        MakeChange(obj);
-        obj.show;
-        MakeChange(obj.number,obj.symb);
-        obj.show();
+//        SixthClass obj = new SixthClass(1, 'a');
+//        obj.show();
+//        MakeChange(obj);
+//        obj.show;
+//        MakeChange(obj.number,obj.symb);
+//        obj.show();
     }
 }
