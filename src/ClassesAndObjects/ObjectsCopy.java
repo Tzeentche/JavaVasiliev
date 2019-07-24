@@ -52,12 +52,6 @@ public class ObjectsCopy {
 
         objA = objB.copy();
 
-        objA.show();
-
-        objB.name ="Second object changed!";
-        objB.number = 300;
-
-        objA.show();
-        objB.show();
+        obj
     }
 }
