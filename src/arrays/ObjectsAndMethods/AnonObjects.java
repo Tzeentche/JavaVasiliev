@@ -28,7 +28,7 @@ class EighthClass {
             }
         }
     }
-    
+
 public class AnonObjects {
 
     static void show(EighthClass obj) {
