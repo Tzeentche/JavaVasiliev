@@ -51,7 +51,5 @@ public class ObjectsCopy {
         objB.show();
 
         objA = objB.copy();
-
-        obj
     }
 }
