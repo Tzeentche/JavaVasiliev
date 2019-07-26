@@ -27,12 +27,21 @@ class SubClass extends SuperClass {
     void show() {
 
         System.out.println("Values field: " + number);
-        System.out.println("Text number: " + name);
+        System.out.println("Text field: " + name);
         System.out.println("Symbol field: " + symbol);
     }
 }
 
 public class HeritClasses {
 
-    
+    public static void main(String[] args) {
+
+        SubClass obj = new SubClass();
+        obj.setAll(100, "TEXT", 'A');
+        obj.show();
+        obj.setNumber(20);
+        obj.name = "NEW";
+
+        obj.show();
+    }
 }
