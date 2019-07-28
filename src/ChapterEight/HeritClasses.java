@@ -1,7 +1,5 @@
 package ChapterEight;
 
-import javax.swing.*;
-
 class SuperClass {
 
     int number;
