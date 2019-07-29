@@ -7,7 +7,7 @@ interface BaseThird {
     void show();
 }
 
-class A implements BaseThird {
+class AThird implements BaseThird {
 
     public void show() {
 
@@ -15,7 +15,7 @@ class A implements BaseThird {
     }
 }
 
-class B implements BaseThird {
+class BThird implements BaseThird {
 
     public void show() {
 
@@ -29,10 +29,10 @@ public class InterfaceRefDemo {
 
         BaseThird ref;
 
-        ref = new A();
+        ref = new AThird();
         ref.show();
 
-        ref = new B();
+        ref = new BThird();
         ref.show();
     }
 }
