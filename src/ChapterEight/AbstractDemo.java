@@ -56,7 +56,7 @@ public class AbstractDemo {
         BaseA A = new BaseA();
         BaseB B = new BaseB();
 
-        A.show(5);
-        B.show(5);
+        A.show(50);
+        B.show(60);
     }
 }
