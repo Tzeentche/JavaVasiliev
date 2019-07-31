@@ -17,7 +17,7 @@ public class TextCreate {
         String str4 = new String(symbs);
         System.out.println(str4);
 
-        byte[] nums = new byte[] {78, 97, 109, 98, 101, 114, 115};
+        byte[] nums = new byte[] {78, 117, 109, 98, 101, 114, 115};
         String str5 = new String(nums);
         System.out.println(str5);
     }
