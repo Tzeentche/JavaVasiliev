@@ -45,7 +45,7 @@ public class OneMoreThreadDemo {
             Thread.sleep(5000 + rnd.nextInt(5000));
             System.out.println("Main thread: " + new Date());
         }
-        
+
             System.out.println("Main thread finished work: " + new Date());
     }
 }
