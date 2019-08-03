@@ -48,7 +48,7 @@ public class SimpleThreadDemo {
 
             System.out.println("Main thread: " + new Date());
         }
-        
+
             System.out.println("Main thread finished work: " + new Date());
     }
 }
