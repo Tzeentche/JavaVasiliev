@@ -6,10 +6,11 @@ class NewFrame {
 
     NewFrame() {
 
-
         JFrame MyFrame = new JFrame("New window");
 
         MyFrame.setSize(300, 200);
+
+        MyFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         MyFrame.setVisible(true);
     }
