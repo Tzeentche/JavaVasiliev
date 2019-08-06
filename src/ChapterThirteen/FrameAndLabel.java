@@ -14,6 +14,8 @@ class MyFrame {
         JLabel lbl = new JLabel(" Hello to everybody!");
 
         frm.add(lbl);
+
+        frm.setVisible(true);
     }
 }
 
