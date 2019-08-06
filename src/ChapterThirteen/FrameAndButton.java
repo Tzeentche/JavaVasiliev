@@ -8,10 +8,10 @@ class MyFrameThird implements ActionListener {
     MyFrameThird (String text, int x, int y) {
 
         JFrame frm = new JFrame("Window with label and button!");
-        frm.setBounds(x, y, 360, 200);
+        frm.setBounds(x, y, 360, 360);
         frm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        ImageIcon icn = new ImageIcon(":/Books/Java_guide/pictures/javalogo.gif");
+        ImageIcon icn = new ImageIcon("d:/Books/Files/javalogo.gif");
 
         JLabel lbl = new JLabel(text, icn, JLabel.CENTER);
         lbl.setBounds(10, 10, 330, 100);
