@@ -15,7 +15,6 @@ class MyFrameTwo {
         JLabel lbl = new JLabel(text, icn, JLabel.CENTER);
 
         frm.add(lbl);
-
         frm.setVisible(true);
     }
 }
