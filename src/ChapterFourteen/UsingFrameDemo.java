@@ -185,7 +185,7 @@ class TextInputFrame implements ActionListener {
 
             il.setBounds(10, 10, w, h);
 
-            message = new JLabel("<html>" + msg.replace("\n", "<br>") + "<html>", JLabel.LEFT);
+            message = new JLabel("<html>" + msg.replace("\n", "<br>") + "</html>", JLabel.LEFT);
             message.setBounds(w + 20, 10, width - 30 - w, height / 2 - 10);
 
             frame.add(il);
