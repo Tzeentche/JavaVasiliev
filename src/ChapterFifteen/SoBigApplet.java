@@ -9,7 +9,7 @@ import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
 
-public class SimpleTextPanel extends JPanel {
+class SimpleTextPanel extends JPanel {
 
     SimpleTextPanel(String text) {
 
@@ -236,7 +236,7 @@ class TPanel extends JTabbedPane {
     }
 }
 
-class SoBigApplet extends JApplet {
+public class SoBigApplet extends JApplet {
 
     private TPanel tpnl;
 
